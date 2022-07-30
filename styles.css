@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.attribution { font-size: 0.73rem; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); font-size: 0.73rem;}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main-card {
+    background-color: white;
+    width: max(305px, 20vw);
+    margin: min(10vh, 10rem) auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.qr-code {
+    width: 275px;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+}
+
+.description {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+}
+
+footer {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.desc-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
