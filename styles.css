@@ -13,14 +13,14 @@ body {
 
 .main-card {
     background-color: white;
-    width: max(305px, 20vw);
+    width: min(40vw, 305px);
     margin: min(10vh, 10rem) auto;
     padding: 1rem;
     border-radius: 1rem;
 }
 
 .qr-code {
-    width: 275px;
+    width: min(34vw, 275px);
     aspect-ratio: 1;
     border-radius: 1rem;
 }
